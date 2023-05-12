@@ -39,7 +39,7 @@ export default function Nav({ user }: Session) {
         <DarkLight />
         {/*if the user is not signed in*/}
         {!user && (
-          <li className="bg-primary py-2 px-4 rounded-md">
+          <li className="bg-primary py-2 px-4 rounded-md text-white">
             <button onClick={() => signIn()}>Sign In</button>
           </li>
         )}
